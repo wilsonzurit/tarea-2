@@ -1,0 +1,11 @@
+Algoritmo cantidad_digitos
+	
+	Escribir 'Ingrese el numero' 
+	Leer n
+	z <- 0
+	Mientras n>=1 Hacer
+		n <- n/10
+		z <- z+1
+	FinMientras
+	Escribir 'El numero tiene ',z,' digitos' 
+FinAlgoritmo
